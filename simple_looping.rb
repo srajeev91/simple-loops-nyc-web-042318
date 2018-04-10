@@ -13,7 +13,7 @@ def loop_iterator(number_of_times)
   loop do
     count = 0
     puts "#{phrase}"
-    break if count == number_of_times
+    break if count >= number_of_times
     count +=1
   end
   
